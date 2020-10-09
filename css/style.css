@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h3 {
+    text-align: center;
+    margin: 20px;
+}
+
+.btn {
+    width: 100%;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px
+}
+
+.celda {
+    width: 33%;
+    min-height: 200px;
+    border: 1px solid black;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+}
+
+.celda:hover {
+    border: 1px solid red;
+}
