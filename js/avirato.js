@@ -2,7 +2,7 @@ let celdas = document.querySelectorAll('.celda');
 let turno = document.querySelector('.turno');
 let botonIniciar = document.querySelector('.btn')
 
-let estadoInicial1 = ["X", "O", "X", "X", "O", "X", "", "", ""];
+let estadoInicial1 = ["X", "O", "O", "O", "X", "X", "", "", ""];
 let siguienteJugador = "X";
 
 botonIniciar.addEventListener('click', iniciarJuego);
