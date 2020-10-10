@@ -9,8 +9,14 @@ h1, h3 {
     margin: 20px;
 }
 
-.btn {
+.botones {
     width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.btn {
+    width: 50%;
     margin: 20px;
 }
 
